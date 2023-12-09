@@ -128,17 +128,17 @@ params:
       I am a second year Computer Science Co-op student at [Brock University](https://brocku.ca) in St. Catharines, ON, with a passion for back end development, cloud, and networking.
       
 
-      I am currently searching for a Summer 2023 Software Engineer Co-op placement.
+      I am currently working as a Technical Systems Analyst Co-op within CIBC's Managed Desktop Contact Centre Non-Production team.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "Python"
-        - "Oracle Cloud"        
-        - "HTML"
-        - "CSS"
+        - "C# - .NET"
+        - "Python"        
+        - "Active Directory"
+        - "MS Config Mgr"
         - "Java"
-        - "Git"
+        - "Github Enterprise"
 
   # Experience
   experience:
