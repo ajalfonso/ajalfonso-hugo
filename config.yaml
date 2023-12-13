@@ -102,8 +102,8 @@ params:
     intro: "Hi, my name is"
     title: "AJ A."
     #subtitle: "I create cool things"
-    content: "An aspiring software engineer. I am passionate about the back end technologies that maintain and power the applications we use today."
-    image: /images/aj.jpg
+    content: "An aspiring software engineer. I am passionate about building things that make our lives a little easier."
+    image: /images/aj-new.jpg
     button:
       enable: true
       name: "Resume"
@@ -114,6 +114,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/ajalfonso
         - icon: fab fa-linkedin
+        
           url: https://www.linkedin.com/in/aj-alfonso/
         - icon: fab fa-instagram
           url: "https://instagram.com/aj.alfns"
@@ -122,39 +123,44 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/aj.jpg"
+    image: "/images/aj-new.jpg"
     content: |-
-      I am a second year Computer Science Co-op student at [Brock University](https://brocku.ca) in St. Catharines, ON, with a passion for back end development, cloud, and networking.
+      I am a third year Computer Science Co-op student at [Brock University](https://brocku.ca) in St. Catharines, ON, with a passion for full stack development, cloud, and networking.
       
 
-      I am currently searching for a Summer 2023 Software Engineer Co-op placement.
+      I am currently working as a Technical Systems Analyst Co-op within CIBC's Managed Desktop Contact Centre Non-Production team.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "Python"
-        - "Oracle Cloud"        
-        - "HTML"
-        - "CSS"
+        - "C# - .NET"
+        - "Python"        
+        - "Active Directory"
+        - "MS Config Mgr"
         - "Java"
-        - "Git"
+        - "Github Enterprise"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Technical Systems Analyst Co-op"
+        company: "CIBC"
+        companyUrl: "https://cibc.ca"
+        date: "Sep 2023 - Present"
+        content: "Recognizing a potential to optimize my team's workflow, I developed a .NET WinForms app using the Microsoft Playwright library to automate the configuration of OS Image builds. Our team had no central repository to store the tools we use, leading to me spearheading the adoption and migration of our tools to CIBC's Enterprise Github."
       - job: "Sales Associate"
         company: "The Source"
         companyUrl: "https://thesource.ca"
-        date: "Jul 2021 - present"
+        date: "Jul 2021 - Apr 2023"
 
         # featuredLink:
         #   enable: true
         #   name: "View the project"
         #   url: "https://example.com"
 
-        content: "By providing a high level of customer service through my extensive knowledge of Consumer Electronics, as well as BCE Mobility and Residential services, I am able to deliver an excellent customer experience. I have consistently achieved and exceeded mobility, residential, and consumer electronics sales targets."
+        content: "By providing a high level of customer service through my extensive knowledge of Consumer Electronics, as well as BCE Mobility and Residential services, I was able to deliver an excellent customer experience. I consistently achieved and exceeded mobility, residential, and consumer electronics sales targets."
       - job: "Lifeguard and Swim Instructor"
         company: "Town of Milton"
         companyUrl: "https://www.milton.ca/"
@@ -162,12 +168,6 @@ params:
 
         content: "Through coordination with other staff, I was able to enforce and maintain safety protocols within the pool facility. I also taught and supervised swimming lessons for patrons, from Parent and Tot, up to Adult age groups. "
 
-      - job: "IT Specialist"
-        company: "CompuMobile"
-        companyUrl: "https://compumobile.com/"
-        date: "Jul 2017"
-
-        content: "Completed hardware and software repairs on various computers and smartphones, and advised customers on technical issues with their devices."
   # Education
   education:
     enable: true
@@ -178,36 +178,13 @@ params:
         school:
           name: "Brock University"
           url: "https://brocku.ca"
-        date: "Expected 2026"
-        # GPA: "3.8 out of 5.0"
+        date: "Expected 2025"
         content: |-
           Completed Coursework
-            - Advanced Data Structures, Intro to Computer Architecture, Math for Computer Science
+            - Advanced Data Structures, Intro to Database Systems, Intro to Computer Architecture, Math for Computer Science
 
-          Extracurricular Activities
+          Extra Curricular Activities 
             - President of the Brock Filipino Student Association, Intramural Volleyball
-      - title: "Bachelor of Science, Computer Science"
-        school:
-          name: "University of Toronto, Missisauga"
-          url: "https://utm.utoronto.ca"
-        date: "2018-2020"
-        #GPA: "3.9 out of 5.0"
-        content: |-
-          Completed Coursework
-            - Intro to Computer Programming, Intro to Computer Science, Intro to Mathematical Proofs, Software Design 
-          
-       # featuredLink:
-        #  enable: true
-        #  name: "My academic record"
-        #  url: "https://example.com"
-      - title: "High School Diploma w/ Specialist High Skills Major in Information Technology"
-        school:
-          name: "Bishop P.F Reding Catholic Secondary School."
-          url: "https://secondary.hcdsb.org/bishopreding/"
-        date: "2014-2018"
-        # GPA: "4.2 out of 5.0"
-        # featuredLink:
-        #   enable: true
         #   url: "https://example.com"
 
   # Achievements
